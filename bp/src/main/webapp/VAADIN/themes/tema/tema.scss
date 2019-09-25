@@ -1,0 +1,106 @@
+// If you edit this file you need to compile the theme. See README.md for details.
+
+// Global variable overrides. Must be declared before importing Valo.
+
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+//$v-font-size: 16px;
+//$v-font-weight: 300;
+//$v-font-family: "Open Sans", sans-serif;
+
+// Defines the border used by all components.
+//$v-border: 1px solid (v-shade 0.7);
+//$v-border-radius: 4px;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(210, 0%, 98%);
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-app-background-color: $v-background-color;
+
+// Affects the visual appearance of all components
+//$v-gradient: v-linear 8%;
+//$v-bevel-depth: 30%;
+//$v-shadow-opacity: 5%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: valo-focus-color(); // Calculates a suitable color automatically
+//$v-friendly-color: #2c9720;
+//$v-error-indicator-color: #ed473b;
+
+// For more information, see: https://vaadin.com/book/-/page/themes.valo.html
+// Example variants can be copy/pasted from https://vaadin.com/docs/v8/framework/articles/ValoExamples.html
+
+@import "../valo/valo.scss";
+
+@mixin tema {
+  @include valo;
+
+.toata{padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px}
+.toati{padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;background:white;opacity:9;}
+.tot{overflow:auto;padding:0px} 
+.context{font-size:12px;font-weight:bold}
+.butoane{border:0px;border-radius:0px;font-size:1vw;color:#FFFFFF;background:transparent;border-color:#3E7F90;text-align:left}
+.rosu{background:red}
+.content{background:#f4f4f4;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px}
+.fundal{background:#39434f}
+.cauta{border-radius:0px;}
+.select{border:0px;border-radius:0px;font-size:1vw;color:#FFFFFF;background:#6a7582;border-color:#3E7F90;text-align:left}
+.drop{border:none;border-radius:0px;font-size:16px;background:transparent;color:white;text-align:left;vertical-align:middle;webkit-text-stroke: 2px white;padding:0px}
+.ter{border-radius:0px;background:transparent;border-width:0px;font-size:16px;color:#6b6b6b}
+.terselect{color:#3d3d3d;border-radius:0px;background:transparent;border-width:0px;font-size:16px;font-family:"Arial Black";font-weight:bold}
+.negru{background:white;box-shadow:0px 5px 7px #CCCCCC;border:3px;border-color:black}
+.unom{padding-bottom:0px;background:#ECECEC;padding-top:0px;padding-left:0px;padding-right:10px}
+.nosluts{font-size:18px;font-weight:bold;color:#333333;text-align:center;vertical-align:middle;transition: opacity 2s ease-in;}
+.casuta{background:white;box-shadow:2px 3px 3px #CCCCCC;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px}
+.pos1{background:#f8edff;box-shadow: 3px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos2{background:#fef2ff;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos3{background:#f8f2ff;box-shadow: 1px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos10{background:#eaeaff;box-shadow: 1px 4px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos5{background:#edf7ff;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos6{background:#edfffc;box-shadow: 2px 3px 4px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos7{background:#f1ffed;box-shadow: 1px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos8{background:#fdffea;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos9{background:#fff5ef;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;border:2px;border-color:#4B6469;padding:2px}
+.pos0{border:2px;border-color:#4B6469;background:#FFEBDE;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;padding:2px} 
+.overplus{overflow:auto;zoom:90%}
+.postare{border:2px;border-color:#4B6469;background:white;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;padding:2px} 
+.dinviitor{border:2px;border-color:#4B6469;background:#fff4f6;box-shadow: 0px 3px 3px #CCCCCC;margin:3px;padding:2px}
+.vi{background:transparent;color:black;border-radius:0px;border-width:0px;font-size:13px;font-weight:bold;box-shadow: none}
+.view{background:transparent;color:black;border-radius:0px;border-width:0px;font-size:16px;}
+.viewselect{background:#3E7F90;color:white;;border-radius:0px;border-width:0px;font-size:16px;}
+.pos4{border:2px;border-color:#4B6469;background-image: url(botit.png); background-repeat: no-repeat;background-size:cover;padding:2px;box-shadow: 0px 3px 3px #CCCCCC;margin:3px}
+.numeom{font-weight:bold;background:transparent;padding:0px;border:0px;border:none; text-align:top;border-radius:0px;font-size:19px}
+.numemic{font-weight:bold;background:transparent;padding:0px;border:0px;border:none; text-align:top;border-radius:0px;font-size:16px}
+.numecom{font-weight:bold;background:transparent;padding:0px;border:0px;border:0px; text-align:top;border-radius:0px;font-size:14px;color:white}
+.tag2{color:#00228A;background-color:transparent;border:0px;font-size:13px;font-weight:bold}
+.jeos{font-weight:bold;background:transparent;padding:0px;border:0px;border:none; text-align:top;border-radius:0px;font-size:19px;color:#444444}
+.jeosdat{font-weight:bold;background:transparent;padding:0px;border:0px;border:none; text-align:top;border-radius:0px;font-size:19px;color:red}
+.comact{font-weight:bold;background:transparent;padding:0px;border:0px;border:none; text-align:top;border-radius:0px;font-size:15px;color:#444444}
+.comdat{font-weight:bold;background:transparent;padding:0px;border:0px;border:none; text-align:top;border-radius:0px;font-size:15px;color:red}
+.apasat{font-weight:bold;background:#606060;color:white;padding:0px;border:0px;border:none; text-align:top;border-radius:0px}
+.comfont{font-size:13px}
+.verde{color:#00430B;font-weight:bold;}
+.verdegros{color:#00430B;font-family:"Arial Black";font-weight:bold;font-size:13px}
+.med0{background-image: url(postpics/ani1.gif); background-repeat: no-repeat;background-size:cover;}
+.med1{background-image: url(postpics/ani2.gif); background-repeat: no-repeat;background-size:cover;}
+.med2{background-image: url(postpics/ani3.gif); background-repeat: no-repeat;background-size:cover;}
+.med3{background-image: url(postpics/ani4.png); background-repeat: no-repeat;background-size:cover;}
+.med4{background-image: url(postpics/ani5.png); background-repeat: no-repeat;background-size:contain;}
+.med5{background-image: url(postpics/ani6.png); background-repeat: no-repeat;background-size:contain;}
+.med6{background-image: url(postpics/ani7.png); background-repeat: no-repeat;background-size:contain;}
+.med7{background-image: url(postpics/robot.jpg); background-repeat: no-repeat;background-size:contain;}
+.headate{font-weight:bold;background:#595959;color:#FFFFFF;font-size:13px;vertical-align:text-middle;}
+.scroll{overflow:scroll}
+.auto{overflow:auto}
+.visible{overflow:visible}
+.hidden{overflow:hidden}
+.topline{font-size:13px;color:#333333}
+.metrics{font-weight:bold;color:#173620}
+.rank{font-family:"Arial Black";font-weight:bold;color:#cfcfcf;font-size:43px}
+.metrisus{font-family:"Arial Black";color:#595959;font-size:24px}
+  // Insert your own theme rules here
+}
+}
+}`
+}
+}
+}
